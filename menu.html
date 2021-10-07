@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="menuS.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="menuS.css"> -->
     <title>Plant Cell Webpage</title>
 </head>
-<body>
+<body class="">
+  <div class="bg-blue-100 pb-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h1 class="text-4xl">Interactivve Plant Cell Webpage</h1>
+<h6 class="text-xl mb-4">Made by Alex Kozlov</h6>
 
-<h1>Interactivve Plant Cell Webpage</h1>
-<h6>Made by Alex Kozlov</h6>
+<h2 class="text-2xl">Read this paragraph to give yourself some background knowlege, or just skip it.</h2>
+<h3 class="text-xl mb-4">Plant Cells, by Alex Kozlov</h3>
 
-<h2>Read this paragraph to give yourself some background knowlege, or just skip it.</h2>
-<h3>Plant Cells, by Alex Kozlov</h3>
-
-<h4>Introduction:</h4>
-<p>Cells are the building blocks of living things, 
+<h4 class="text-xl mb-2">Introduction:</h4>
+<p class="mb-4">Cells are the building blocks of living things, 
     as in all living things are made of them. 
     Cells are not found in nonliving things but 
     found in plants and animals, although cells 
     are diffrent they very much depending if they 
-    are a animal or a plant cell.</p>
+    are a animal or a plant cell.
+  </p>
 
-    <h4>Plant Cells introduction:</h4>
-    <p>Plant cells are as I said quite different
+    <h4 class="text-xl mb-2">Plant Cells introduction:</h4>
+    <p class="mb-4 text-red-900">Plant cells are as I said quite different
     than animal cells, some of the characteristics 
     of the plant cell include; the shape of the 
     plant cell ( rigid), the chloroplasts, cell 
@@ -31,41 +34,88 @@
     plant cell. In conclusion the plant cell has 
     6 main orgenells; a nucleus, cell membrane, cell
     wall, vacuole, and chloroplasts
+</p>
+    <h4 class="text-xl mb-2">The orgenells of a plant cell chart:</h4>
+<table class="table-auto border w-full">
+  <tr>
+    <th class="border border-green-600 text-left p-4">Header 1</th>
+    <th class="border border-green-600 p-4">Header 2</th>
+    <th class="border border-green-600 p-4">Header 3</th>
+  </tr>
+  <tr>
+    <td class="border border-green-600 p-4">Row 1</td>
+    <td class="border border-green-600 p-4">Row 2</td>
+    <td class="border border-green-600 p-4">Row 3</td>
+  </tr>
+    <tr>
+      <td class="border border-green-600 p-4">Row 1</td>
+      <td class="border border-green-600 p-4">Row 2</td>
+      <td class="border border-green-600 p-4">Row 3</td>
+    </tr>
+  <tr>
+    <td class="border border-green-600 p-4">Row 1</td>
+    <td class="border border-green-600 p-4">Row 2</td>
+    <td class="border border-green-600 p-4">Row 3</td>
+  </tr>
+  <tr>
+    <td class="border border-green-600 p-4">Row 1</td>
+    <td class="border border-green-600 p-4">Row 2</td>
+    <td class="border border-green-600 p-4">Row 3</td>
+  </tr>
+  <tr>
+    <td class="border border-green-600 p-4">Row 1</td>
+    <td class="border border-green-600 p-4">Row 2</td>
+    <td class="border border-green-600 p-4">Row 3</td>
+  </tr>
+  <tr>
+    <td class="border border-green-600 p-4">Row 1</td>
+    <td class="border border-green-600 p-4">Row 2</td>
+    <td class="border border-green-600 p-4">Row 3</td>
+  </tr>
+  <tr>
+    <td class="border border-green-600 p-4">Row 1</td>
+    <td class="border border-green-600 p-4">Row 2</td>
+    <td class="border border-green-600 p-4">Row 3</td>
+  </tr>
+  <tr>
+    <td class="border border-green-600 p-4">Row 1</td>
+    <td class="border border-green-600 p-4">Row 2</td>
+    <td class="border border-green-600 p-4">Row 3</td>
+  </tr>
 
-    <h4>The orgenells of a plant cell chart:</h4>
-
-    <img src="thethingforcode.png" alt="plant cell 
+</table>
+    <img src="thethingforcode.png" class="h-100" alt="plant cell 
     chart:" class="center">
 
-    <h4>Here is the quiz to take to test your 
+    <h4 class="text-xl mb-2">Here is the quiz to take to test your 
     knowlege:</h4>
 
-    <h5>How many (main) orgenells are there in a 
+    <h5 class="text-xl mb-2">How many (main) orgenells are there in a 
     plant cell?</h5>
 
+    <div class="mb-4">
+    <button class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50" onclick="q1_incorrect()">5</button>
+    <button  class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  onclick="q1_incorrect()">7</button>
+    <button  class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  onclick="q1_correct()">6</button>
+    <button  class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  onclick="q1_incorrect()">3</button>
+</div>
+    <h5 class="text-xl mb-2">What does a chloroplast look like?</h5>
     
-    <button onclick="q1_incorrect()">5</button>
-    <button onclick="q1_incorrect()">7</button>
-    <button onclick="q1_correct()">6</button>
-    <button onclick="q1_incorrect()">3</button>
+    <div class="mb-4">
+    <button  class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  onclick="q1_incorrect()">a ball</button>
+    <button   class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50" onclick="q1_incorrect()">a green square</button>
+    <button  class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  onclick="q1_incorrect()">a purple ball</button>
+    <button  class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  onclick="q1_correct()">a jelly bean</button>
+    </div>
 
-    <h5>What does a chloroplast look like?</h5>
+    <h5 class="text-xl mb-2">What is a nucleus?</h5>
     
-    
-    <button onclick="q1_incorrect()">a ball</button>
-    <button onclick="q1_incorrect()">a green square</button>
-    <button onclick="q1_incorrect()">a purple ball</button>
-    <button onclick="q1_correct()">a jelly bean</button>
-
-
-    <h5>What is a nucleus?</h5>
-    
-    
-    <button onclick="q1_correct()">A orgenelle</button>
-    <button onclick="q1_incorrect()">A Cell</button>
-    <button onclick="q1_incorrect()">A Plant</button>
-    <button onclick="q1_incorrect()">A brain</button>
-
+    <div class="mb-4">
+    <button class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  onclick="q1_correct()">A orgenelle</button>
+    <button class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  onclick="q1_incorrect()">A Cell</button>
+    <button class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  onclick="q1_incorrect()">A Plant</button>
+    <button class="px-2 py-1 rounded text-white inline-block bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  onclick="q1_incorrect()">A brain</button>
+</div>
 
     <script>
       function q1_correct() {
@@ -80,7 +130,7 @@
   </p>
 
     <h4></h4>
-
-
+</div>
+</div>
 </body>
 </html>
